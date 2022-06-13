@@ -61,7 +61,7 @@ cout<<"Tā ir viktorina par tēmu Biežāk lietotās funkcijas darbam ar simboli
     }while(atb6!="c");
 
   do{
-  cout<<"\n\n\n7.Kura funkcija atbilst prasībai (salīdzina virkni s1 ar virkni s2 un atgriež int rezultātu: 0 - ja virknes ir līdzvērtīgas, >0 - ja s1<s2, <0 - ja s1>s2 Lieto mazsvarīgi)?\n\na.strlen()\nb.issuper()\nc.strcpy()\nd.stricmp()\n\n"; cin>> atb7;
+  cout<<"\n\n\n7.Kura funkcija atbilst prasībai (salīdzina virkni s1 ar virkni s2 un atgriež int rezultātu: 0 - ja virknes ir līdzvērtīgas, >0 - ja s1<s2, <0 - ja s1>s2 Lieto mazsvarīgi)?\n\na.strlen()\nb.issuper()\nc.strcpy()\nd.strcmp()\n\n"; cin>> atb7;
     if(atb7=="d"){
       cout<<"\nTu atbildeji pareizi!";
       }else{
@@ -87,5 +87,12 @@ cout<<"Tā ir viktorina par tēmu Biežāk lietotās funkcijas darbam ar simboli
     }
     }while(atb9!="b");
 
-  
+  do{
+  cout<<"\n\n\n10.Kuru simbola virknēs funkciju izmanto lai parviedot virkni s1, long int tipa mainīgajā?\n\na.atof()\nb.atol()\nc.isalnum()\nd.Tada funkcija neeksistē!\n\n"; cin>> atb10;
+    if(atb10=="b"){
+      cout<<"\nTu atbildeji pareizi!";
+      }else{
+      cout<<"\nTu atbildeji nepareizi!";
+    }
+    }while(atb10!="b");
 }
