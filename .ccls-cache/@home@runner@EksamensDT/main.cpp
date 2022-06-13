@@ -61,11 +61,31 @@ cout<<"Tā ir viktorina par tēmu Biežāk lietotās funkcijas darbam ar simboli
     }while(atb6!="c");
 
   do{
-  cout<<"\n\n\n7.Kura funkcija atbilst prasībai (salīdzina virkni s1 ar virkni s2 un atgriež int rezultātu: 0 - ja virknes ir līdzvērtīgas, >0 - ja s1<s2, <0 - ja s1>s2 Lieto mazsvarīgi).\n\na.strlen()\nb.issuper()\nc.strcpy()\nd.stricmp()\n\n"; cin>> atb7;
+  cout<<"\n\n\n7.Kura funkcija atbilst prasībai (salīdzina virkni s1 ar virkni s2 un atgriež int rezultātu: 0 - ja virknes ir līdzvērtīgas, >0 - ja s1<s2, <0 - ja s1>s2 Lieto mazsvarīgi)?\n\na.strlen()\nb.issuper()\nc.strcpy()\nd.stricmp()\n\n"; cin>> atb7;
     if(atb7=="d"){
       cout<<"\nTu atbildeji pareizi!";
       }else{
       cout<<"\nTu atbildeji nepareizi!";
     }
     }while(atb7!="d");
+
+  do{
+  cout<<"\n\n\n8.Kuru simbola virknēs funkciju izmanto lai parviedot virkni s1, double tipa mainīgajā?\n\na.atol()\nb.atoi()\nc.atof()\nd.stlen()\n\n"; cin>> atb8;
+    if(atb8=="c"){
+      cout<<"\nTu atbildeji pareizi!";
+      }else{
+      cout<<"\nTu atbildeji nepareizi!";
+    }
+    }while(atb8!="c");
+
+  do{
+  cout<<"\n\n\n9.Kuru simbola virknēs funkciju izmanto lai parviedot virkni s1, int tipa mainīgajā?\n\na.atof()\nb.atoi()\nc.isalnum()\nd.atol()\n\n"; cin>> atb9;
+    if(atb9=="b"){
+      cout<<"\nTu atbildeji pareizi!";
+      }else{
+      cout<<"\nTu atbildeji nepareizi!";
+    }
+    }while(atb9!="b");
+
+  
 }
