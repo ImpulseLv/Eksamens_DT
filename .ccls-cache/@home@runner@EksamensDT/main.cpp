@@ -23,4 +23,31 @@ cout<<"Tā ir viktorina par tēmu Biežāk lietotās funkcijas darbam ar simboli
       cout<<"\nTu atbildeji nepareizi!";
     }
     }while(atb2!="c");
+
+  do{
+  cout<<"\n\n\n3.Kuru simbola virknēs funkciju izmanto lai apvienot s1 vīrkni ar s2 vīrkni un rezultāts saglabājās uz s1?\n\na.isalpha()\nb.strcpy()\nc.strcat()\nd.strcmp()\n\n"; cin>> atb3;
+    if(atb3=="c"){
+      cout<<"\nTu atbildeji pareizi!";
+      }else{
+      cout<<"\nTu atbildeji nepareizi!";
+    }
+    }while(atb3!="c");
+
+  do{
+  cout<<"\n\n\n4.Ko izpilda funkcija isspace()?\n\na.atgriež vertību true, ja simbols ir burts vai skaitlis, bet false visos citos variantos\nb.atgriež vertību true, ja simbols ir burts, bet false visos citos variantos\nc.atgriež vertību true, ja simbols ir paraugs, bet false visos citos variantos\nd.Tada funkcija nepiestāv\n\n"; cin>> atb4;
+    if(atb4=="c"){
+      cout<<"\nTu atbildeji pareizi!";
+      }else{
+      cout<<"\nTu atbildeji nepareizi!";
+    }
+    }while(atb4!="c");
+
+  do{
+  cout<<"\n\n\n5.Kuru simbola virknēs funkciju izmanto lai apstrādāt simbolu, ta lai atgriež vertību true, ja simbols ir burts, bet false visos citos variantos?\n\na.isalpha()\nb.isalnum()\nc.islower()\nd.issuper()\n\n"; cin>> atb5;
+    if(atb5=="a"){
+      cout<<"\nTu atbildeji pareizi!";
+      }else{
+      cout<<"\nTu atbildeji nepareizi!";
+    }
+    }while(atb5!="a");
 }
