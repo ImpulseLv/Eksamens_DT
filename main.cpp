@@ -50,4 +50,22 @@ cout<<"Tā ir viktorina par tēmu Biežāk lietotās funkcijas darbam ar simboli
       cout<<"\nTu atbildeji nepareizi!";
     }
     }while(atb5!="a");
+
+  do{
+  cout<<"\n\n\n6.Kuru simbola virknēs funkciju izmanto lai apstrādāt simbolu, ta lai atgriež vertību true, ja simbols ir skaitlis, bet false visos citos variantos?\n\na.isalnum()\nb.islower()\nc.isdigit()\nd.issuper()\n\n"; cin>> atb6;
+    if(atb6=="c"){
+      cout<<"\nTu atbildeji pareizi!";
+      }else{
+      cout<<"\nTu atbildeji nepareizi!";
+    }
+    }while(atb6!="c");
+
+  do{
+  cout<<"\n\n\n7.Kura funkcija atbilst prasībai (salīdzina virkni s1 ar virkni s2 un atgriež int rezultātu: 0 - ja virknes ir līdzvērtīgas, >0 - ja s1<s2, <0 - ja s1>s2 Lieto mazsvarīgi).\n\na.strlen()\nb.issuper()\nc.strcpy()\nd.stricmp()\n\n"; cin>> atb7;
+    if(atb7=="d"){
+      cout<<"\nTu atbildeji pareizi!";
+      }else{
+      cout<<"\nTu atbildeji nepareizi!";
+    }
+    }while(atb7!="d");
 }
