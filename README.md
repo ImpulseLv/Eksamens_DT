@@ -8,3 +8,4 @@
 - [x] Ievest do while ciklu
 - [x] Ievest iespeju redzēt uz cik jautajumiem cilveks atbildeja ar pirmo reizi
 - [x] Ievest iespeju atbildet tikai ar burtu, kurš pieder atbildei
+- [x] Izveidot testpiemierus
